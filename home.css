@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabecalho{
+    background-color: #6C6C6C;
+}
+#home{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: #6C6C6C;
+}
+.logo-home{
+    font-family: "Poppins";
+    font-weight: 400;
+    color: white;
+    margin-left: 2%;
+    margin-top: 1%;
+    user-select: none;
+}
+.span-logo-home{
+    font-weight: 600;
+}
+.textos-home{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:  10%;
+    margin-top: 45%;
+    margin-left: 5%;
+    user-select: none;
+}
+.title-home{
+    font-family: "Poppins";
+    font-weight: 400;
+    color: #0EE8DB;
+    font-size: 2.3em;
+
+}
+.span-title-home{
+    font-weight: 600;
+}
+.p-home{
+    font-family: "Poppins";
+    font-weight: 400;
+    color: white;
+}
+.span-home-p{
+    color: #0EE8DB;
+    font-weight: 600;
+}
+.card{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background: linear-gradient(53.84deg, rgba(0, 240, 226, 0.1044) 0%, rgba(0, 0, 0, 0.1392) 98.56%);
+    opacity: 0.7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px 100px;
+    margin-left: 30%;
+    margin-top: 8%;
+    
+}
+.img-home{
+    position: absolute;
+    height: 500px;
+    margin-left: 28%;
+    margin-top: 1%;
+}
+#infos-1{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    background-color: white;
+}
+#aside-infos-1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 15%;
+}
+.img-infos-1{
+    height: 350px;
+    margin-top: 25%;
+    margin-left: 20%;
+}
+.textos-infos-1{
+    margin-top: 5%;
+    width: 95%;
+    margin-right: 0%;
+    margin-left: 2%;
+}
+.title-infos-1{
+    width: 60%;
+    margin-left: 40%;
+    margin-top: 5%;
+    font-family: "Roboto";
+    font-weight: 400;
+
+}
+.p-infos-1{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #333333;
+    margin-left: 40%;
+    margin-top: 3%;
+}
+.hr-divisao{
+    display: flex;
+    width: 30%;
+}
+#infos-2{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    background-color: white;
+}
+#article-infos-2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+#aside-infos-2{
+    width: 50%;
+}
+.title-infos-2{
+    width: 100%;
+    margin-left: 4%;
+    margin-top: 8%;
+    margin-bottom: 1%;
+    font-size: 1.7em;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.p-infos-2{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #333333;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.span-p-infos-2{
+    font-weight: 500;
+}
+.span-infos-2-2{
+    font-weight: 500;
+    font-style: italic;
+}
+.span-infos-2-3{
+    font-weight: 500;
+}
+.img-infos-2{
+    height: 350px;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+#infos-3{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    background-color: white;
+}
+#article-infos-3{
+    width: 40%;
+}
+#aside-infos-3{
+    width: 60%;
+}
+.img-infos-3{
+    margin-top: 15%;
+    height: 350px;
+    margin-left: 10%;
+}
+.textos-infos-3{
+    margin-top: 10%;
+    height: 20%;
+    margin-left: 15%;
+}
+.title-infos-3{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-left: 5%;
+}
+.span-title-infos-3{
+    font-weight: 500;
+}
+.p-infos-3{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #333333;
+    margin-top: 5%;
+    
+}
+.span-p-infos-3{
+    font-weight: 500;
+}
+#infos-4{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background-color: white;
+}
+.div-imagem{
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+}
+.img-infos-4{
+    margin: 0 auto;
+    width: 900px;
+}
+
+.title-infos-4{
+    font-family: "Roboto";
+    font-weight: 400;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+.p-infos-4{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #333333;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.p-infos-4-2{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #333333;
+    margin-left: 2%;
+    margin-top: 1.5%;
+}
+#infos-5{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background-color: white;
+}
+.div-imagem-infos-5{
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+}
+.img-infos-5{
+    margin: 0 auto;
+    width: 900px;
+}
+
+.title-infos-5{
+    font-family: "Roboto";
+    font-weight: 400;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+.p-infos-5{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #333333;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+#section-suporte{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;    
+    background-color: white;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    margin-top: 10%;
+    align-items: baseline;
+}
+.card-infos{
+    margin: 0 auto;
+    
+    width: 28%;
+    height: 90%;
+}
+.img-card{
+    display: flex;
+    height: 200px;
+    margin: 0 auto;
+}
+.card-infos:hover{
+    cursor: pointer;
+}
+.card-produtos:hover{
+    cursor: pointer;
+}
+.title-card{
+    font-family: "Roboto";
+    font-weight: 400;
+    margin-left: 3%;
+    margin-top: 4%;
+    font-size: 1.3em;
+}
+.p-card{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 4%;
+    color: #333333;
+}
+#acessorios-essenc{
+    display: flex;
+    flex-direction: column;
+    height: 210vh;
+    background-color: white;
+}
+.textos-acessorios{
+    width: 100%;
+    height: 10%;
+    margin-top: 5%;
+   
+}
+.title-acessorios{
+    margin-left: 4%;
+    
+    margin-bottom: 1%;
+    font-size: 1.7em;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+.p-acessorios{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #333333;
+    margin-left: 2%;
+}
+.div-produtos-1{
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+    align-items: baseline;
+}
+.card-produtos{
+    margin: 0 auto;
+    
+    width: 28%;
+    height: 90%;
+}
+.img-card-produtos{
+    display: flex;
+    height: 200px;
+    margin: 0 auto;
+}
+.title-card-produtos{
+    font-family: "Roboto";
+    font-weight: 400;
+    margin-left: 3%;
+    margin-top: 4%;
+    font-size: 1.3em;
+}
+.p-card-produtos{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 4%;
+    color: #333333;
+}
+.div-produtos-2{
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+    align-items: baseline;
+}
+.linha-divisao{
+   
+    margin-top: 5%;
+    width: 85%;
+    margin-left: 7%;
+}
+.rodape{
+    background-color: #333333;
+    height: 20vh;
+    display: flex;
+}
+.p-rodape{
+    font-family: 'Roboto';
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0 auto;
+    margin-top: 6%;
+}
